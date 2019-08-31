@@ -1,0 +1,54 @@
+body {
+  padding: 5px;
+}
+body p {
+  font-size: 24px;
+  padding-left: 12px;
+}
+
+.container {
+  margin: 5px;
+  padding-left: 12px;
+}
+
+.text-red {
+  color: red;
+}
+
+.text-blue {
+  color: blue;
+}
+
+.text-black {
+  color: black;
+}
+
+.text-purple {
+  color: purple;
+}
+
+.text-green {
+  color: green;
+}
+
+.p-1px {
+  padding: 1px;
+}
+
+.p-2px {
+  padding: 2px;
+}
+
+.p-3px {
+  padding: 3px;
+}
+
+.p-4px {
+  padding: 4px;
+}
+
+.p-5px {
+  padding: 5px;
+}
+
+/*# sourceMappingURL=gopin.css.map */
