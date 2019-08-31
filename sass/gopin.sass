@@ -1,0 +1,21 @@
+$colors : red blue black purple green
+$paddings : 1px 2px 3px 4px 5px
+$padding-left: 12px
+
+body
+  padding: 5px
+  p
+    font-size: 24px
+    padding-left: $padding-left
+
+.container
+  margin: 5px
+  padding-left: $padding-left
+
+@each $color in $colors
+  .text-#{$color}
+    color: $color
+
+@each $padding in $paddings
+  .p-#{$padding}
+    padding: $padding
